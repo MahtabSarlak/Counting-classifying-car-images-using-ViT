@@ -1,4 +1,4 @@
-# Counting and classifying car using fine-tuned ViT
+# Counting and classifying car using fine-tuned ViT in PyTorch
 
 This is the final project of the deep learning course. During this project, first, a dataset of more than 500 Iranian car images from 3 different models ( Peugeot 206, Peugeot Pars, Pride)
 is gathered by crawling images from car retail websites. Because the number of training examples is limited, we use a fine-tuned [Vision transformer](https://arxiv.org/abs/2010.11929) for classification. Besides, we use transfer learning with ResNet50 as another classification model. However, ViT model performs better than the ResNet50 model.
